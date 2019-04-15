@@ -23,10 +23,12 @@ mxmotor_DBD += base.dbd
 mxmotor_DBD += asyn.dbd
 #endif
 mxmotor_DBD += motorSupport.dbd
+ifdef MX
 mxmotor_DBD += devMXmotor.dbd
 
 # Add all the support libraries needed by this IOC
-mxmotor_LIBS += mxmotor
+mxmotor_LIBS += MXmotor
+endif
 mxmotor_LIBS += motor
 #ifdef ASYN
 mxmotor_LIBS += asyn
