@@ -1,5 +1,19 @@
 # motorMXmotor Releases
 
+## __R1-0-1 (2020-05-11)__
+R1-0-1 is a release based on the master branch.  
+
+### Changes since R1-0
+
+#### New features
+* None
+
+#### Modifications to existing features
+* None
+
+#### Bug fixes
+* Commit [f58865a](https://github.com/epics-motor/motorMXmotor/commit/f58865ae748bb30114a60fd36148788473e24031): Include ``$(MOTOR)/modules/RELEASE.$(EPICS_HOST_ARCH).local`` instead of ``$(MOTOR)/configure/RELEASE``
+
 ## __R1-0 (2019-04-18)__
 R1-0 is a release based on the master branch.  
 
