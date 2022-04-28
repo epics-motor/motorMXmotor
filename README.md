@@ -1,7 +1,8 @@
 # motorMXmotor
 EPICS motor support for interfacing the [MX control system](http://mx.iit.edu/)
 
-[![Build Status](https://travis-ci.org/epics-motor/motorMXmotor.png)](https://travis-ci.org/epics-motor/motorMXmotor)
+[![Build Status](https://github.com/epics-motor/motorMXmotor/actions/workflows/ci-scripts-build.yml/badge.svg)](https://github.com/epics-motor/motorMXmotor/actions/workflows/ci-scripts-build.yml)
+<!--[![Build Status](https://travis-ci.org/epics-motor/motorMXmotor.png)](https://travis-ci.org/epics-motor/motorMXmotor)-->
 
 motorMXmotor is a submodule of [motor](https://github.com/epics-modules/motor).  When motorMXmotor is built in the ``motor/modules`` directory, no manual configuration is needed.
 
